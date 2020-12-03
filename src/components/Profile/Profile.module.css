@@ -1,8 +1,7 @@
-.content {
-  grid-area: cont;
-  background-color: greenyellow;
-  }
-
-.contentimg {
+.img {
   width: 300px;
+}
+
+.content{
+  grid-area: cont;
 }
