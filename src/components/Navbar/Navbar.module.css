@@ -5,4 +5,14 @@
 
   .item {
   color: white;
+    padding: 20px;
   }
+
+  .item a {
+    color: floralwhite;
+    text-decoration: none;
+  }
+
+.item a:active{
+  color: crimson;
+}
