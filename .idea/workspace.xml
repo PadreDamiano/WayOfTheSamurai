@@ -20,12 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43f8f1d-0b0c-4d00-8399-305dd6858913" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +53,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -63,6 +69,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\WayOfTheSamurai\src\components\Profile\ProfileInfo" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs" />
     </key>
   </component>
@@ -90,7 +97,15 @@
       <workItem from="1606985916898" duration="1534000" />
       <workItem from="1606987477942" duration="5694000" />
       <workItem from="1607089377628" duration="2570000" />
-      <workItem from="1607329834312" duration="6633000" />
+      <workItem from="1607329834312" duration="6681000" />
+      <workItem from="1607365789570" duration="595000" />
+      <workItem from="1607620169158" duration="649000" />
+      <workItem from="1607769735900" duration="597000" />
+      <workItem from="1607880580694" duration="1499000" />
+      <workItem from="1608033725032" duration="2173000" />
+      <workItem from="1608223053914" duration="656000" />
+      <workItem from="1608538405852" duration="2513000" />
+      <workItem from="1608542296994" duration="9849000" />
     </task>
     <servers />
   </component>
@@ -110,6 +125,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="606" y="325" key="#ESLint" timestamp="1608556623117">
+      <screen x="0" y="0" width="1473" height="864" />
+    </state>
+    <state x="606" y="325" key="#ESLint/0.0.1473.864@0.0.1473.864" timestamp="1608556623117" />
     <state x="363" y="111" key="#Inspections" timestamp="1606996922942">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
@@ -122,9 +141,9 @@
       <screen x="0" y="0" width="1473" height="864" />
     </state>
     <state x="318" y="212" width="981" height="707" key="SettingsEditor/0.0.1473.864@0.0.1473.864" timestamp="1606932879602" />
-    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1606991867302">
+    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1608550834373">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1473.864@0.0.1473.864" timestamp="1606991867302" />
+    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1473.864@0.0.1473.864" timestamp="1608550834373" />
   </component>
 </project>

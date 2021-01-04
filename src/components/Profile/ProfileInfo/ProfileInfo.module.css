@@ -1,7 +1,6 @@
 .img {
   width: 300px;
 }
-
-.content{
-  grid-area: cont;
+.item {
+  padding: 10px;
 }
