@@ -16,19 +16,29 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:development" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43f8f1d-0b0c-4d00-8399-305dd6858913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+    </list>
+    <list id="ef2d00a9-8c7e-4efe-ada6-3b5e983e5c69" name="Revert &quot;2021-2&quot;" comment="Revert &quot;2021-2&quot;&#10;&#10;This reverts commit 0fad3b6c">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +47,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProjectId" id="1l6mKHSXXZtr9m60vRGAh1p5Jbz" />
   <component name="ProjectLevelVcsManager">
@@ -53,15 +64,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -69,11 +77,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Git\WayOfTheSamurai\src\components\Profile\ProfileInfo" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f43f8f1d-0b0c-4d00-8399-305dd6858913" name="Default Changelist" comment="" />
@@ -97,27 +107,42 @@
       <workItem from="1606985916898" duration="1534000" />
       <workItem from="1606987477942" duration="5694000" />
       <workItem from="1607089377628" duration="2570000" />
-      <workItem from="1607329834312" duration="6681000" />
-      <workItem from="1607365789570" duration="595000" />
-      <workItem from="1607620169158" duration="649000" />
-      <workItem from="1607769735900" duration="597000" />
-      <workItem from="1607880580694" duration="1499000" />
-      <workItem from="1608033725032" duration="2173000" />
-      <workItem from="1608223053914" duration="656000" />
-      <workItem from="1608538405852" duration="2513000" />
-      <workItem from="1608542296994" duration="9849000" />
+      <workItem from="1607329834312" duration="6633000" />
+      <workItem from="1609768274269" duration="8000" />
+      <workItem from="1609775827355" duration="941000" />
+      <workItem from="1609867456955" duration="984000" />
+      <workItem from="1609869417696" duration="906000" />
+      <workItem from="1611565840922" duration="18000" />
+      <workItem from="1611565869207" duration="645000" />
+      <workItem from="1611566651966" duration="2520000" />
+      <workItem from="1611651590107" duration="829000" />
+      <workItem from="1611652635656" duration="611000" />
+      <workItem from="1611653821248" duration="1865000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="development" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -125,14 +150,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="606" y="325" key="#ESLint" timestamp="1608556623117">
-      <screen x="0" y="0" width="1473" height="864" />
-    </state>
-    <state x="606" y="325" key="#ESLint/0.0.1473.864@0.0.1473.864" timestamp="1608556623117" />
     <state x="363" y="111" key="#Inspections" timestamp="1606996922942">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
     <state x="363" y="111" key="#Inspections/0.0.1473.864@0.0.1473.864" timestamp="1606996922942" />
+    <state x="365" y="0" key="CommitChangelistDialog2" timestamp="1609768212740">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="365" y="0" key="CommitChangelistDialog2/0.0.1474.864@0.0.1474.864" timestamp="1609768212740" />
     <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1606932749011">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
@@ -141,9 +166,17 @@
       <screen x="0" y="0" width="1473" height="864" />
     </state>
     <state x="318" y="212" width="981" height="707" key="SettingsEditor/0.0.1473.864@0.0.1473.864" timestamp="1606932879602" />
-    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1608550834373">
+    <state x="547" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609768254360">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="547" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864@0.0.1474.864" timestamp="1609768254360" />
+    <state x="394" y="197" key="run.anything.popup" timestamp="1609768249876">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="394" y="197" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1609768249876" />
+    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1606991867302">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1473.864@0.0.1473.864" timestamp="1608550834373" />
+    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1473.864@0.0.1473.864" timestamp="1606991867302" />
   </component>
 </project>
