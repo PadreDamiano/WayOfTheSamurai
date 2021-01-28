@@ -1,6 +1,6 @@
 .nav {
   grid-area: nav;
-  background-color: coral;
+  background-color: #11999e;
   }
 
   .item {
@@ -9,10 +9,10 @@
   }
 
   .item a {
-    color: floralwhite;
+    color: #40514e;
     text-decoration: none;
   }
 
 .item a.active{
-  color: darkred;
+  color: white;
 }

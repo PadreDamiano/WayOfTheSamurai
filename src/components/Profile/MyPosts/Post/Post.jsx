@@ -5,7 +5,7 @@ import classes from "./Post.module.css";
 const Post = (props) => {
   return (
       <div className={classes.item}>
-          <img src="https://pbs.twimg.com/profile_images/857551974442651648/D5cZLXTf_400x400.jpg" className={classes.img} alt="Text"/>
+          <img src="https://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg" className={classes.img} alt="Text"/>
          {props.messege}
           <div>
           <span>LIKE {props.likeCount}</span>

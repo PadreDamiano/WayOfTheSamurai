@@ -5,3 +5,7 @@
 .content{
   grid-area: cont;
 }
+
+.item{
+  color: #40514e;
+}

@@ -1,9 +1,9 @@
 .item {
   grid-area: it;
-  color: rgb(38, 0, 255);
+  color: #40514e;
 }
 
 .img {
-  width: 30px;
+  width: 40px;
   border-radius: 100px;
 }
