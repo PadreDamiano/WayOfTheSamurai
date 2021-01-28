@@ -9,8 +9,12 @@
 
 }
 
-.dialog {
-
+.dialog a {
+    color: #40514e;
+    text-decoration: none;
+}
+.dialog a.active {
+    color: white;
 }
 
 .messages {
