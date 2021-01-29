@@ -2,6 +2,15 @@
   width: 300px;
 }
 
-.content{
+.content {
   grid-area: cont;
+}
+
+.item {
+
+}
+
+.descriptionBlock {
+  padding: 10px;
+
 }

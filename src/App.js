@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Dialogs from "./components/Dialogs/Dialogs";
 import  {BrowserRouter} from "react-router-dom";
 import Route from "react-router-dom/es/Route";
+import Message from "./components/Dialogs/Message";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                 <div className="arr-wrapper-content">
                     <Route path='/dialogs' component={Dialogs} />
                     <Route path='/profile' component={Profile} />
+                    <Route path='/message' component={Message} />
                 </div>
             </div>
         </BrowserRouter>
