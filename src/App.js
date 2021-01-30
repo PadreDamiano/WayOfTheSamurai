@@ -7,18 +7,18 @@ import Navbar from "./components/Navbar/Navbar";
 import Dialogs from "./components/Dialogs/Dialogs";
 import  {BrowserRouter} from "react-router-dom";
 import Route from "react-router-dom/es/Route";
-import Message from "./components/Dialogs/Message";
+import Message from "./components/Dialogs/Message/Message";
 
-const App = () => {
+const App = (props) => {
     return (
         <BrowserRouter>
             <div className="arr-wrapper">
                 <Header/>
                 <Navbar/>
                 <div className="arr-wrapper-content">
-                    <Route path='/dialogs' component={Dialogs} />
-                    <Route path='/profile' component={Profile} />
-                    <Route path='/message' component={Message} />
+                    <Route path='/dialogs' render = { () => <Dialogs /> } />
+                    <Route path='/profile' render = { () => <Profile /> } />
+                    <Route path='/message' render = { () => <Message /> } />
                 </div>
             </div>
         </BrowserRouter>
