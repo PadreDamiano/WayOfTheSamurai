@@ -26,9 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43f8f1d-0b0c-4d00-8399-305dd6858913" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <list id="ef2d00a9-8c7e-4efe-ada6-3b5e983e5c69" name="Revert &quot;2021-2&quot;" comment="Revert &quot;2021-2&quot;&#10;&#10;This reverts commit 0fad3b6c" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,13 +83,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Git\WayOfTheSamurai\src\components\Friends" />
-      <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs\Message" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs\DialogsItem" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\WayOfTheSamurai\src\components\Friends" />
+      <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs" />
     </key>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
@@ -127,7 +134,10 @@
       <workItem from="1611909366749" duration="9076000" />
       <workItem from="1611997419298" duration="9934000" />
       <workItem from="1612024070773" duration="5872000" />
-      <workItem from="1612089569479" duration="4237000" />
+      <workItem from="1612089569479" duration="4408000" />
+      <workItem from="1612159796114" duration="779000" />
+      <workItem from="1612162431114" duration="3658000" />
+      <workItem from="1612179058583" duration="7271000" />
     </task>
     <servers />
   </component>
@@ -185,14 +195,14 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="547" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864@0.0.1474.864" timestamp="1609768254360" />
-    <state x="394" y="197" key="run.anything.popup" timestamp="1611832278965">
+    <state x="394" y="197" key="run.anything.popup" timestamp="1612184823968">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="394" y="197" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1611832278965" />
-    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup" timestamp="1611999419497">
+    <state x="394" y="197" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1612184823968" />
+    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup" timestamp="1612163791188">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1473.864@0.0.1473.864" timestamp="1606991867302" />
-    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1611999419497" />
+    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1612163791188" />
   </component>
 </project>

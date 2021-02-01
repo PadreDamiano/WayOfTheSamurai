@@ -4,6 +4,12 @@ import {NavLink} from "react-router-dom";
 import Message from "./Message/Message";
 import DialogsItem from "./DialogsItem/DialogsItem";
 
+let newPostElement = React.createRef();
+let addPost = () => {
+    let text = newPostElement.current.value;
+    alert(text);
+};
+
 const Dialogs = (props) => {
 
     let dialogsElement = props.state.dialogsData.map(dialog => <DialogsItem id={dialog.id} name={dialog.name} img={dialog.img}/>);
@@ -15,6 +21,10 @@ const Dialogs = (props) => {
             </div>
             <div className={classes.dialogsItem}>
                 { messageElement }
+            </div>
+            <div>
+                    <textarea ref={newPostElement}></textarea>
+                    <button onClick = {addPost} >OK</button>
             </div>
         </div>
     )
