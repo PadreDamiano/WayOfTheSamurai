@@ -9,19 +9,24 @@ const MyPosts = (props) => {
     let addPost = () => {
         let text = newPostElement.current.value;
         props.addPostsData(text);
-        newPostElement.current.value = '';
     }
 
-    let postElement = props.postsData.map (post => <Post messege={post.message} likeCount={post.likeCount} img={post.img}/>);
+    let onPostChange = () => {
+        let text = newPostElement.current.value;
+        props.upDateNewPostText(text);
+    }
+
+    let postElement = props.postsData.map(post => <Post messege={post.message} likeCount={post.likeCount}
+                                                        img={post.img}/>);
     return (
         <div className={classes.descriptionBlock}>
             My Post
             <div>
-                <textarea ref={newPostElement}></textarea>
-                <button onClick={ addPost }>Add post</button>
+                <textarea onChange={onPostChange} ref={newPostElement} value={props.newPostText}/>
+                <button onClick={addPost}>Add post</button>
             </div>
             <div className={classes.posts}>
-                { postElement }
+                {postElement}
             </div>
         </div>
     )

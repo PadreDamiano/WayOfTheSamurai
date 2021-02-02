@@ -1,5 +1,3 @@
-import rerenderEntireTree from "../../render";
-
 let state = {
     dialogsPage: {
         dialogsData: [
@@ -60,21 +58,32 @@ let state = {
                 likeCount: 6,
                 img: "https://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg"
             }
-        ]
+        ],
+        newPostText: ''
     },
     sidebar: {}
 };
+window.state = state;
 
-export let addPostsData = (postMessage) => {
+export const addPostsData = () => {
     let newPost = {
-        message: postMessage,
+        message: state.profilePage.newPostText,
         likeCount: 0,
         img: "https://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg"
     }
     state.profilePage.postsData.push(newPost);
+    state.profilePage.newPostText = '';
     rerenderEntireTree(state);
 };
 
+export const upDateNewPostText = (newText) => {
+    state.profilePage.newPostText = newText;
+    rerenderEntireTree(state);
+    /* state.profilePage.newPostText = '';*/
+};
 
+export const subscribe = (observer) => {
+
+}
 
 export default state;
