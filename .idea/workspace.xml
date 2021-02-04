@@ -27,12 +27,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f43f8f1d-0b0c-4d00-8399-305dd6858913" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" />
     </list>
     <list id="ef2d00a9-8c7e-4efe-ada6-3b5e983e5c69" name="Revert &quot;2021-2&quot;" comment="Revert &quot;2021-2&quot;&#10;&#10;This reverts commit 0fad3b6c" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +136,11 @@
       <workItem from="1612162431114" duration="3658000" />
       <workItem from="1612179058583" duration="8460000" />
       <workItem from="1612206855667" duration="191000" />
-      <workItem from="1612236647801" duration="10089000" />
+      <workItem from="1612236647801" duration="10352000" />
+      <workItem from="1612266840693" duration="3344000" />
+      <workItem from="1612278127834" duration="5006000" />
+      <workItem from="1612422172850" duration="332000" />
+      <workItem from="1612434661906" duration="7767000" />
     </task>
     <servers />
   </component>
@@ -181,11 +185,11 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="365" y="0" key="CommitChangelistDialog2/0.0.1474.864@0.0.1474.864" timestamp="1609768212740" />
-    <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1611670538483">
+    <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1612450373630">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="517" y="173" key="FileChooserDialogImpl/0.0.1473.864@0.0.1473.864" timestamp="1606932749011" />
-    <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1611670538483" />
+    <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1612450373630" />
     <state x="579" y="152" key="RollbackChangesDialog" timestamp="1611831764497">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -198,14 +202,18 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="547" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864@0.0.1474.864" timestamp="1609768254360" />
+    <state x="580" y="204" key="refactoring.ChangeSignatureDialog" timestamp="1612282988941">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="580" y="204" key="refactoring.ChangeSignatureDialog/0.0.1474.864@0.0.1474.864" timestamp="1612282988941" />
     <state x="394" y="197" key="run.anything.popup" timestamp="1612184823968">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="394" y="197" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1612184823968" />
-    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup" timestamp="1612240918063">
+    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup" timestamp="1612460544953">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1473.864@0.0.1473.864" timestamp="1606991867302" />
-    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1612240918063" />
+    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1612460544953" />
   </component>
 </project>

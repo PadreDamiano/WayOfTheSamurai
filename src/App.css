@@ -1,4 +1,4 @@
-.arr-wrapper {
+.app-wrapper {
   display: grid;
   grid-template-areas:
     "header header header"
@@ -9,6 +9,6 @@
   margin: auto;
 }
 
-.arr-wrapper-content {
+.app-wrapper-content {
   background-color: #30e3ca;
 }
