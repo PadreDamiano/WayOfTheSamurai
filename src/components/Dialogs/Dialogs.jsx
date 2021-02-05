@@ -1,30 +1,42 @@
 import React from 'react';
 import classes from './Dialogs.module.css';
-import {NavLink} from "react-router-dom";
 import Message from "./Message/Message";
 import DialogsItem from "./DialogsItem/DialogsItem";
-
-let newPostElement = React.createRef();
-let addPost = () => {
-    let text = newPostElement.current.value;
-    alert(text);
-};
+import {sendMessageCreator, updateNewMessageBodyCreator} from "../Redux/state";
 
 const Dialogs = (props) => {
+    let state = props.store.getState().dialogsPage;
 
-    let dialogsElement = props.state.dialogsData.map(dialog => <DialogsItem id={dialog.id} name={dialog.name} img={dialog.img}/>);
-    let messageElement = props.state.messageData.map(message => <Message id={message.id} message={message.message}/>);
+    let dialogsElement = state.dialogsData.map(dialog => <DialogsItem id={dialog.id} name={dialog.name}
+                                                                            img={dialog.img}/>);
+    let messageElement = state.messageData.map(message => <Message id={message.id} message={message.message}/>);
+    let newMessageBody = state.newMessageBody;
+
+    let onSendMessageClick = () => {
+        props.store.dispatch(sendMessageCreator())
+    };
+    let onNewMessageChange = (event) => {
+        let body = event.target.value;
+        props.store.dispatch(updateNewMessageBodyCreator(body))
+    };
+
     return (
         <div className={classes.dialogs}>
             <div className={classes.dialogsItem}>
-                { dialogsElement }
+                {dialogsElement}
             </div>
             <div className={classes.dialogsItem}>
-                { messageElement }
-            </div>
-            <div>
-                    <textarea ref={newPostElement}></textarea>
-                    <button onClick = {addPost} >OK</button>
+                <div>{messageElement}</div>
+                <div>
+                    <div>
+                        <textarea value={newMessageBody}
+                                  onChange={onNewMessageChange}
+                                  placeholder='Enter your message'></textarea>
+                    </div>
+                    <div>
+                        <button onClick={onSendMessageClick}>Send message</button>
+                    </div>
+                </div>
             </div>
         </div>
     )
