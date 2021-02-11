@@ -4,7 +4,6 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import './index.css';
 import {BrowserRouter} from "react-router-dom";
-import Dialogs from "./components/Dialogs/Dialogs";
 
 let rerenderEntireTree = (state) => {
     ReactDOM.render(

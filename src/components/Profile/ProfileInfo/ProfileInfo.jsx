@@ -5,8 +5,10 @@ import classes from './ProfileInfo.module.css';
 const ProfileInfo = () => {
     return (
         <div className={classes.item}>
-            <img src="https://drugoy.com.ua/uploads/blog/41e4d-kilimandzharo_vysochayshaja_vershina_afriki_kilimanjaro-2.jpg" className={classes.img}
-                 alt="Text"/>
+            <div>
+                <img src="https://drugoy.com.ua/uploads/blog/41e4d-kilimandzharo_vysochayshaja_vershina_afriki_kilimanjaro-2.jpg" className={classes.img}
+                     alt="Text"/>
+            </div>
             <div className={classes.descriptionBlock}>
                 Ava+Description
             </div>
