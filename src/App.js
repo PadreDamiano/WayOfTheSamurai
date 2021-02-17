@@ -8,6 +8,7 @@ import Dialogs from "./components/Dialogs/Dialogs";
 import {BrowserRouter, Route} from "react-router-dom";
 import Message from "./components/Dialogs/Message/Message";
 import Friends from "./components/Friends/Friends";
+import DialogsContainer from "./components/Dialogs/DialogsContainer";
 
 const App = (props) => {
 
@@ -17,7 +18,7 @@ const App = (props) => {
                 <Header/>
                 <Navbar/>
                 <div className="app-wrapper-content">
-                    <Route path='/dialogs' render={() => <Dialogs store={props.store}/>}/>
+                    <Route path='/dialogs' render={() => <DialogsContainer store={props.store}/>}/>
                     <Route path='/profile' render={() => <Profile store={props.store}/>}/>
                     <Route path='/message' render={() => <Message/>}/>
                     <Route path='/friends' render={() => <Friends/>}/>

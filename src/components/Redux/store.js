@@ -73,7 +73,7 @@ let store = {
         console.log('State Change');
     },
 
-    getState () {
+    getState() {
       return this._state
     },
     subscribe (observer) {
