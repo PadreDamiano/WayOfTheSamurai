@@ -38,12 +38,12 @@ let store = {
                 }
             ],
             messageData: [
-                {id: 1, message: "OK"},
-                {id: 2, message: "How are you?"},
-                {id: 3, message: "My name is Natalie"},
-                {id: 4, message: "Good day"},
-                {id: 5, message: "Hello"},
-                {id: 6, message: "Goodbye"},
+                {id: 11, message: "OK"},
+                {id: 22, message: "How are you?"},
+                {id: 33, message: "My name is Natalie"},
+                {id: 44, message: "Good day"},
+                {id: 55, message: "Hello"},
+                {id: 66, message: "Goodbye"},
             ],
             newMessageBody: ''
         },
@@ -52,17 +52,20 @@ let store = {
                 {
                     message: "It's my first post!!!",
                     likeCount: 10,
-                    img: "https://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg"
+                    img: "https://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg",
+                    id: 1111
                 },
                 {
                     message: "Hello!!!",
                     likeCount: 7,
-                    img: "https://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg"
+                    img: "https://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg",
+                    id: 2222
                 },
                 {
                     message: "Hi",
                     likeCount: 6,
-                    img: "https://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg"
+                    img: "https://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg",
+                    id: 3333
                 }
             ],
             newPostText: ''
@@ -88,4 +91,3 @@ let store = {
     }
 }
 export default store;
-window.store = store;

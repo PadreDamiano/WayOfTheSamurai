@@ -5,7 +5,7 @@ import classes from './MyPosts.module.css';
 
 
 const MyPosts = (props) => {
-    let postElement = props.posts.map(post => <Post messege={post.message} likeCount={post.likeCount}
+    let postElement = props.posts.map(post => <Post key={post.id} messege={post.message} likeCount={post.likeCount}
                                                         img={post.img}/>);
     let newPostElement = React.createRef();
 
@@ -17,8 +17,6 @@ const MyPosts = (props) => {
         let text = newPostElement.current.value;
         props.updateNewPostText(text);
     }
-
-
     return (
         <div className={classes.descriptionBlock}>
             My Post

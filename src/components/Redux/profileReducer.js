@@ -22,20 +22,29 @@ let  initialState = {
         newPostText: ''
 };
 
+let getRandom = () => {
+    return Math.random();
+}
+
 const profileReducer = (state = initialState, action) => {
     switch (action.type) {
-        case ADD_POST:
+        case ADD_POST:{
             let newPost = {
                 "message": state.newPostText,
                 "likeCount": 0,
-                "img": "https://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg"
+                "img": "https://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg",
+                "id": {getRandom}
+            };
+            let stateCopy = {...state};
+            stateCopy.postsData = [...state.postsData];
+            stateCopy.postsData.push(newPost);
+            stateCopy.newPostText = '';
+            return stateCopy;
             }
-            state.postsData.push(newPost);
-            state.newPostText = '';
-            break;
         case UPDATE_NEW_POST_TEXT:
-            state.newPostText = action.newText;
-            break;
+            let stateCopy = {...state};
+            stateCopy.newPostText = action.newText;
+            return stateCopy;
     }
     return state;
 }

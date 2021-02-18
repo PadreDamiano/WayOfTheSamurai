@@ -5,9 +5,13 @@ import DialogsItem from "./DialogsItem/DialogsItem";
 
 const Dialogs = (props) => {
     let state = props.dialogsPage;
-    let dialogsElement = state.dialogsData.map(dialog => <DialogsItem id={dialog.id} name={dialog.name}
-                                                                            img={dialog.img}/>);
-    let messageElement = state.messageData.map(message => <Message id={message.id} message={message.message}/>);
+    let dialogsElement = state.dialogsData.map(dialog => <DialogsItem key={dialog.id}
+                                                                      id={dialog.id}
+                                                                      name={dialog.name}
+                                                                      img={dialog.img}/>);
+    let messageElement = state.messageData.map(message => <Message id={message.id}
+                                                                   message={message.message}
+                                                                   key={message.id}/>);
     let newMessageBody = state.newMessageBody;
 
     let onSendMessageClick = () => {
