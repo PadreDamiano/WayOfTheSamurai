@@ -26,9 +26,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43f8f1d-0b0c-4d00-8399-305dd6858913" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Redux/userReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Redux/dialogsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/dialogsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/profileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Dialogs/DialogsItem/DialogsItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Dialogs/DialogsItem/DialogsItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Friends/Friends.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Friends/Friends.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Redux/reduxStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/reduxStore.js" afterDir="false" />
     </list>
     <list id="ef2d00a9-8c7e-4efe-ada6-3b5e983e5c69" name="Revert &quot;2021-2&quot;" comment="Revert &quot;2021-2&quot;&#10;&#10;This reverts commit 0fad3b6c" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +79,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Redux" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,19 +89,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Git\WayOfTheSamurai\src" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Profile" />
+      <recent name="E:\Git\WayOfTheSamurai\src" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs\Message" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs\DialogsItem" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\WayOfTheSamurai\src\components\Redux" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Profile\MyPosts" />
-      <recent name="E:\Git\WayOfTheSamurai\src\components\Redux" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Friends" />
     </key>
   </component>
@@ -152,7 +168,13 @@
       <workItem from="1613534128620" duration="1944000" />
       <workItem from="1613573327555" duration="9151000" />
       <workItem from="1613629611451" duration="2335000" />
-      <workItem from="1613651096043" duration="11449000" />
+      <workItem from="1613651096043" duration="11468000" />
+      <workItem from="1613715075995" duration="593000" />
+      <workItem from="1613762292657" duration="5637000" />
+      <workItem from="1613769193567" duration="782000" />
+      <workItem from="1613996107282" duration="329000" />
+      <workItem from="1614011388227" duration="430000" />
+      <workItem from="1614065544742" duration="14469000" />
     </task>
     <servers />
   </component>
@@ -193,6 +215,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="330" y="90" width="814" height="729" key="#Intentions/0.0.1474.864@0.0.1474.864" timestamp="1612953060406" />
+    <state x="507" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614073670782">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="507" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1474.864@0.0.1474.864" timestamp="1614073670782" />
     <state x="468" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612248780524">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -218,14 +244,18 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="547" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864@0.0.1474.864" timestamp="1609768254360" />
+    <state x="448" y="10" width="577" height="843" key="find.popup" timestamp="1614070833552">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="448" y="10" width="577" height="843" key="find.popup/0.0.1474.864@0.0.1474.864" timestamp="1614070833552" />
     <state x="580" y="204" key="refactoring.ChangeSignatureDialog" timestamp="1612282988941">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="580" y="204" key="refactoring.ChangeSignatureDialog/0.0.1474.864@0.0.1474.864" timestamp="1612282988941" />
-    <state x="394" y="197" key="run.anything.popup" timestamp="1612184823968">
+    <state x="394" y="197" key="run.anything.popup" timestamp="1614082224099">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="394" y="197" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1612184823968" />
+    <state x="394" y="197" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1614082224099" />
     <state x="399" y="181" width="673" height="678" key="search.everywhere.popup" timestamp="1613675880732">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
