@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from "./Users.module.css";
+import classes from "./Users.module.css";
 import userPhoto from "../../assets/img/user.jpg";
-import * as axios from "axios";
+
 
 let Users = (props) => {
     let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize);
@@ -13,13 +13,14 @@ let Users = (props) => {
     return (
         <div>
             <div>
-                {pages.map(page => {
-                    return <span
-                        className={props.currentPage === page && styles.selectedPage}
-                        onClick={() => {
-                            props.onPageChange(page);
-                        }}>{page} </span>
-                })}
+                {
+                    pages.map (page => {
+                            return <span
+                                className={props.currentPage === page && classes.selectedPage}
+                                onClick={() => {
+                                    props.onPageChange(page);
+                                }}>{page} </span>;
+                    })}
             </div>
             {
                 props.users.map(user =>
@@ -28,7 +29,7 @@ let Users = (props) => {
                             <div>
                                 <img
                                     src={user.photos.small != null ? user.photos.small : userPhoto}
-                                    className={styles.userPhoto}/>
+                                    className={classes.userPhoto}/>
                             </div>
                             <div>
                                 {user.followed ?

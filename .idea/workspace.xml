@@ -26,12 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43f8f1d-0b0c-4d00-8399-305dd6858913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersAPIComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Redux/userReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/userReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersAPIComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersAPIComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
     </list>
     <list id="ef2d00a9-8c7e-4efe-ada6-3b5e983e5c69" name="Revert &quot;2021-2&quot;" comment="Revert &quot;2021-2&quot;&#10;&#10;This reverts commit 0fad3b6c" />
@@ -169,6 +168,7 @@
       <workItem from="1614328867069" duration="12584000" />
       <workItem from="1614666734272" duration="669000" />
       <workItem from="1614669840952" duration="11086000" />
+      <workItem from="1614693528850" duration="8654000" />
     </task>
     <servers />
   </component>
