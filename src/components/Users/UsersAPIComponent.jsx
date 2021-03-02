@@ -1,7 +1,6 @@
 import React from "react";
 import * as axios from "axios";
 import Users from "./Users";
-import loadingIMG from "../../assets/svg/Spinner-1s-200px.svg"
 import Preloader from "../common/Preloader/Preloader";
 
 class UsersAPIComponent extends React.Component {
@@ -12,7 +11,7 @@ class UsersAPIComponent extends React.Component {
             .then(response => {
                 this.props.toggleIsFetching (false);
                 this.props.setUsers(response.data.items);
-                this.props.setTotalUserCount(response.data.totalCount);
+                this.props.setUserTotalCount(response.data.totalCount);
             });
     }
 
@@ -28,7 +27,7 @@ class UsersAPIComponent extends React.Component {
 
     render() {
         return <>
-        {this.props.isFetching ? <Preloader />: null}
+        {this.props.isFetching ? <Preloader /> : null}
             <Users
             totalUsersCount={this.props.totalUsersCount}
             pageSize={this.props.pageSize}

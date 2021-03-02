@@ -1,12 +1,12 @@
 import React from 'react';
 import {
-    followActionCreator,
-    setCurrentPageActionCreator,
-    setUsersActionCreator,
-    setUserTotalCountActionCreator,
-    unFollowActionCreator,
-    toggleIsFetchingActionCreator
-} from "../Redux/userReducer";
+    follow,
+    setCurrentPage,
+    setUsers,
+    setUserTotalCount,
+    unFollow,
+    toggleIsFetching
+} from "../Profile/Redux/userReducer";
 import {connect} from "react-redux";
 import UsersAPIComponent from "./UsersAPIComponent";
 
@@ -21,7 +21,7 @@ const mapStateToProps = (state) => {
     }
 }
 
-const mapDispatchToProps = (dispatch) => {
+/*const mapDispatchToProps = (dispatch) => {
     return {
         follow: (userID) => {
             dispatch(followActionCreator(userID));
@@ -43,6 +43,13 @@ const mapDispatchToProps = (dispatch) => {
         }
     }
 
-}
+}*/
 
-export default connect(mapStateToProps, mapDispatchToProps)(UsersAPIComponent);
+export default connect(mapStateToProps, {
+    follow,
+    unFollow,
+    setUsers,
+    setCurrentPage,
+    setUserTotalCount,
+    toggleIsFetching
+})(UsersAPIComponent);

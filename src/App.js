@@ -1,15 +1,15 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./App.css";
-import Profile from "./components/Profile/Profile";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import {BrowserRouter, Route} from "react-router-dom";
-import Message from "./components/Profile/Dialogs/Message/Message";
-import DialogsContainer from "./components/Profile/Dialogs/DialogsContainer";
+import Message from "./components/Dialogs/Message/Message";
+import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
+import ProfileContainer from "./components/Profile/ProfileContainer";
 
-const App = (props) => {
+const App = () => {
 
     return (
         <BrowserRouter>
@@ -18,9 +18,9 @@ const App = (props) => {
                 <Navbar/>
                 <div className="app-wrapper-content">
                     <Route path='/dialogs'
-                           render={() => <DialogsContainer store={props.store} />}/>
+                           render={() => <DialogsContainer />}/>
                     <Route path='/profile'
-                           render={() => <Profile store={props.store} />}/>
+                           render={() => <ProfileContainer />}/>
                     <Route path='/message'
                            render={() => <Message />}/>
                     <Route path='/users'

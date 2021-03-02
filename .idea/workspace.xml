@@ -26,12 +26,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43f8f1d-0b0c-4d00-8399-305dd6858913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Redux/profileReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Redux/userReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/userReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/DialogsItem/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/DialogsItem/DialogsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Redux/dialogsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Redux/dialogsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Redux/profileReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Redux/reduxStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Redux/reduxStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Redux/sidebarReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Redux/sidebarReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Redux/userReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Redux/userReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersAPIComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersAPIComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <list id="ef2d00a9-8c7e-4efe-ada6-3b5e983e5c69" name="Revert &quot;2021-2&quot;" comment="Revert &quot;2021-2&quot;&#10;&#10;This reverts commit 0fad3b6c" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +84,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -81,17 +98,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Git\WayOfTheSamurai\src\components\Profile" />
-      <recent name="E:\Git\WayOfTheSamurai\src" />
-      <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs\Message" />
-      <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs\DialogsItem" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\WayOfTheSamurai\src\components\Profile" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Redux" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Profile\MyPosts" />
       <recent name="E:\Git\WayOfTheSamurai\src\components\Friends" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git\WayOfTheSamurai\src\components" />
+      <recent name="E:\Git\WayOfTheSamurai\src\components\Profile" />
+      <recent name="E:\Git\WayOfTheSamurai\src" />
+      <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs\Message" />
+      <recent name="E:\Git\WayOfTheSamurai\src\components\Dialogs\DialogsItem" />
     </key>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
@@ -168,7 +187,7 @@
       <workItem from="1614328867069" duration="12584000" />
       <workItem from="1614666734272" duration="669000" />
       <workItem from="1614669840952" duration="11086000" />
-      <workItem from="1614693528850" duration="8654000" />
+      <workItem from="1614693528850" duration="18259000" />
     </task>
     <servers />
   </component>
@@ -250,10 +269,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="394" y="197" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1614082224099" />
-    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup" timestamp="1613675880732">
+    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup" timestamp="1614721489903">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1473.864@0.0.1473.864" timestamp="1606991867302" />
-    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1613675880732" />
+    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1614721489903" />
   </component>
 </project>
