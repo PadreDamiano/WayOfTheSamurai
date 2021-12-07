@@ -6,6 +6,7 @@ import Preloader from "../common/Preloader/Preloader";
 class UsersAPIComponent extends React.Component {
 
     componentDidMount() {
+
         this.props.toggleIsFetching (true);
         axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${this.props.currentPage}&count=${this.props.pageSize}`)
             .then(response => {
@@ -14,6 +15,7 @@ class UsersAPIComponent extends React.Component {
                 this.props.setUserTotalCount(response.data.totalCount);
             });
     }
+
 
     onPageChange = (pageNumber) => {
         this.props.setCurrentPage(pageNumber);
@@ -40,5 +42,6 @@ class UsersAPIComponent extends React.Component {
         </>
     }
 }
+
 
 export default UsersAPIComponent;

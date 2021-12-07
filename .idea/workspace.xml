@@ -26,26 +26,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43f8f1d-0b0c-4d00-8399-305dd6858913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Redux/profileReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/DialogsItem/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/DialogsItem/DialogsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Redux/dialogsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Redux/dialogsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Redux/profileReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Redux/reduxStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Redux/reduxStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Redux/sidebarReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Redux/sidebarReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Redux/userReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Redux/userReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Redux/dialogsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/dialogsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/profileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Redux/reduxStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/reduxStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Redux/sidebarReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/sidebarReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Redux/userReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redux/userReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersAPIComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersAPIComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
@@ -84,7 +93,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -188,6 +197,24 @@
       <workItem from="1614666734272" duration="669000" />
       <workItem from="1614669840952" duration="11086000" />
       <workItem from="1614693528850" duration="18259000" />
+      <workItem from="1614757620739" duration="2088000" />
+      <workItem from="1614884351426" duration="679000" />
+      <workItem from="1615203639016" duration="5902000" />
+      <workItem from="1615369101398" duration="26000" />
+      <workItem from="1615369879075" duration="197000" />
+      <workItem from="1615469483576" duration="239000" />
+      <workItem from="1615470005822" duration="120000" />
+      <workItem from="1615470402946" duration="691000" />
+      <workItem from="1615472461111" duration="1139000" />
+      <workItem from="1615496037238" duration="83000" />
+      <workItem from="1615807787534" duration="44000" />
+      <workItem from="1615973998969" duration="105000" />
+      <workItem from="1615974751786" duration="205000" />
+      <workItem from="1615987700418" duration="478000" />
+      <workItem from="1616059959662" duration="76000" />
+      <workItem from="1616061209874" duration="7000" />
+      <workItem from="1616069670512" duration="268000" />
+      <workItem from="1616071106451" duration="211000" />
     </task>
     <servers />
   </component>
@@ -240,11 +267,11 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="365" y="0" key="CommitChangelistDialog2/0.0.1474.864@0.0.1474.864" timestamp="1609768212740" />
-    <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1612529253085">
+    <state x="517" y="173" key="FileChooserDialogImpl" timestamp="1615496117051">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="517" y="173" key="FileChooserDialogImpl/0.0.1473.864@0.0.1473.864" timestamp="1606932749011" />
-    <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1612529253085" />
+    <state x="517" y="173" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1615496117051" />
     <state x="579" y="152" key="RollbackChangesDialog" timestamp="1611831764497">
       <screen x="0" y="0" width="1474" height="864" />
     </state>

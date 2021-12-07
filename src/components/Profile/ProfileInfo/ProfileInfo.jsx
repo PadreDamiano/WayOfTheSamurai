@@ -7,14 +7,16 @@ const ProfileInfo = (props) => {
     let jobY = "Я в поисках работы";
     let jobN = "Я работаю";
     if (!props.profile) return <Preloader/>;
-if (props.profile.lookingForAJob) {
-    jobN = jobY;
-}
+    if (props.profile.lookingForAJob) {
+        jobN = jobY;
+    }
     return (
         <div className={classes.item}>
             <div>
-                <img src="https://drugoy.com.ua/uploads/blog/41e4d-kilimandzharo_vysochayshaja_vershina_afriki_kilimanjaro-2.jpg" className={classes.img}
-                     alt="Text"/>
+                <img
+                    src="https://drugoy.com.ua/uploads/blog/41e4d-kilimandzharo_vysochayshaja_vershina_afriki_kilimanjaro-2.jpg"
+                    className={classes.img}
+                    alt="Text"/>
             </div>
             <div className={classes.descriptionBlock}>
                 <img src={props.profile.photos.large}/>
